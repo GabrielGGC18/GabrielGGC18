@@ -1,25 +1,62 @@
-## Gabriel de Sá Mendes 
+## 👨‍💻 Gabriel de Sá Mendes
 
-Olá, Tudo Bem? Eu sou o Gabriel, um programador Fullstack com conhecimentos em:
-  <br>
+Olá, tudo bem? Me chamo **Gabriel**, sou um desenvolvedor **Fullstack** apaixonado por tecnologia, inovação e desafios. Atualmente moro em **Palmas - TO**, e estou sempre em busca de aprender algo novo e evoluir como profissional e como pessoa.
 
-  
-  ![Gabriel Stats](https://github-readme-stats.vercel.app/api?username=GabrielGGC18&show_icons=true&theme=onedark)  
+💡 Tenho experiência com desenvolvimento web, APIs REST, integração de sistemas e boas práticas de programação. Gosto de trabalhar com **JavaScript**, **TypeScript**, **React**, **Python**, e **PostgreSQL**, mas estou sempre explorando novas ferramentas e linguagens.
 
+🚀 Meu objetivo é criar soluções que impactem positivamente a vida das pessoas, seja através de projetos pessoais, freelas ou colaborações open-source.
 
-<div style="display: inline_block"> <br> 
+---
+
+### 📊 GitHub Stats
+
+![Gabriel Stats](https://github-readme-stats.vercel.app/api?username=GabrielGGC18&show_icons=true&theme=onedark)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=GabrielGGC18&layout=compact&theme=onedark)
+
+---
+
+### 🧠 Tecnologias que domino
+
+<div style="display: inline_block"><br>
   <img align="center" alt="G-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
   <img align="center" alt="G-Ts" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
   <img align="center" alt="G-React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
   <img align="center" alt="G-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
   <img align="center" alt="G-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
   <img align="center" alt="G-Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
-  <img align="center" alt ="G-Postgres" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg">
+  <img align="center" alt="G-Postgres" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg">
+  <img align="center" alt="G-Git" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg">
 </div>
-  
 
+---
 
- <div> <br>
-  <a href = "https://www.linkedin.com/in/gabriel-de-s%C3%A1-640314211/" target="_blanck"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank>" </a>
-  <a href = "https://www.instagram.com/gabrieldsa_dev/#" target="_blanck"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank>" </a>                                                                                       
-</div>  
+### 🏅 Badges
+
+![Fullstack Developer](https://img.shields.io/badge/Fullstack-Developer-blue?style=for-the-badge)
+![Open Source](https://img.shields.io/badge/Open%20Source-Contributor-brightgreen?style=for-the-badge)
+![Code Lover](https://img.shields.io/badge/Code-Lover-red?style=for-the-badge)
+![Learning Everyday](https://img.shields.io/badge/Learning-Everyday-orange?style=for-the-badge)
+
+---
+
+### 🎯 Conecte-se comigo
+
+<div>
+  <a href="https://www.linkedin.com/in/gabriel-de-s%C3%A1-640314211/" target="_blank">
+    <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white">
+  </a>
+  <a href="https://www.instagram.com/gabrieldsa_dev/" target="_blank">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white">
+  </a>
+</div>
+
+---
+
+### 🖥️ Um pouco da vibe de programador...
+
+![Programmer GIF](https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif)
+
+---
+
+📬 Se quiser trocar uma ideia, colaborar em projetos ou apenas bater um papo sobre tecnologia, fique à vontade para me chamar!
+
