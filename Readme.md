@@ -1,10 +1,8 @@
 ## 👨‍💻 Gabriel de Sá Mendes
 
-Olá, tudo bem? Me chamo **Gabriel**, sou um desenvolvedor **Fullstack** apaixonado por tecnologia, inovação e desafios. Atualmente moro em **Palmas - TO**, e estou sempre em busca de aprender algo novo e evoluir como profissional e como pessoa.
+Olá, tudo bem? Me chamo **Gabriel**, sou um desenvolvedor **Fullstack** . Atualmente faço estágio **na prefeitura de Palmas-to**, e estou sempre em busca de aprender algo novo e evoluir como profissional e como pessoa.
 
-💡 Tenho experiência com desenvolvimento web, APIs REST, integração de sistemas e boas práticas de programação. Gosto de trabalhar com **JavaScript**, **TypeScript**, **React**, **Python**, e **PostgreSQL**, mas estou sempre explorando novas ferramentas e linguagens.
-
-🚀 Meu objetivo é criar soluções que impactem positivamente a vida das pessoas, seja através de projetos pessoais, freelas ou colaborações open-source.
+💡 Tenho experiência com desenvolvimento Web, APIs REST, integração de sistemas e automações. Gosto de trabalhar com **JavaScript**, **TypeScript**, **React**, **Python**, e **PostgreSQL**, mas estou sempre explorando novas ferramentas e linguagens.
 
 ---
 
@@ -30,7 +28,7 @@ Olá, tudo bem? Me chamo **Gabriel**, sou um desenvolvedor **Fullstack** apaixon
 
 ---
 
-### 🏅 Badges
+### 🏅
 
 ![Fullstack Developer](https://img.shields.io/badge/Fullstack-Developer-blue?style=for-the-badge)
 ![Open Source](https://img.shields.io/badge/Open%20Source-Contributor-brightgreen?style=for-the-badge)
@@ -39,7 +37,7 @@ Olá, tudo bem? Me chamo **Gabriel**, sou um desenvolvedor **Fullstack** apaixon
 
 ---
 
-### 🎯 Conecte-se comigo
+### 🎯 Minhas Redes Sociais
 
 <div>
   <a href="https://www.linkedin.com/in/gabriel-de-s%C3%A1-640314211/" target="_blank">
@@ -52,11 +50,11 @@ Olá, tudo bem? Me chamo **Gabriel**, sou um desenvolvedor **Fullstack** apaixon
 
 ---
 
-### 🖥️ Um pouco da vibe de programador...
+### 🖥️ 
 
 ![Programmer GIF](https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif)
 
 ---
 
-📬 Se quiser trocar uma ideia, colaborar em projetos ou apenas bater um papo sobre tecnologia, fique à vontade para me chamar!
+📬 Se quiser trocar uma ideia, colaborar em projetos ou apenas bater um papo sobre tecnologia, fique à vontade para entrar em contato comigo!
 
