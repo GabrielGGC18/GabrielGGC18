@@ -1,4 +1,4 @@
-## 👨‍💻 Gabriel de Sá Mendes
+## Gabriel Mendes
 
 Olá, tudo bem? Me chamo **Gabriel**, sou um desenvolvedor **Fullstack** . Atualmente faço estágio **na prefeitura de Palmas-to**, e estou sempre em busca de aprender algo novo e evoluir como profissional e como pessoa.
 
