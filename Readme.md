@@ -5,7 +5,9 @@ Olá, tudo bem? Me chamo **Gabriel**, sou um desenvolvedor **Fullstack** . Atual
 
 💡 Tenho experiência com desenvolvimento Web, APIs REST, integração de sistemas e automações. Gosto de trabalhar com **JavaScript**, **TypeScript**, **React**, **Python**, e **PostgreSQL**, mas estou sempre explorando novas ferramentas e linguagens.
 
-![Visitantes](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FGabrielGGC18&count_bg=%237A7A7A&title_bg=%23000000&icon=github.svg&icon_color=%23FFFFFF&title=Visitantes&edge_flat=false)
+<div align="center">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=GabrielGGC18.GabrielGGC18" />
+</div>
 
 
 ---
