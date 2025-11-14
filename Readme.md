@@ -1,6 +1,7 @@
 ## Gabriel Mendes
 
-Olá, tudo bem? Me chamo **Gabriel**, sou um desenvolvedor **Fullstack** . Atualmente faço estágio **na prefeitura de Palmas-to**, e estou sempre em busca de aprender algo novo e evoluir como profissional e como pessoa.
+Olá, tudo bem? Me chamo **Gabriel**, sou um desenvolvedor **Fullstack** . Atualmente faço estágio **na prefeitura de Palmas-to**, e estou sempre em busca de aprender algo novo para evolução na carreira profisisonal.
+
 
 💡 Tenho experiência com desenvolvimento Web, APIs REST, integração de sistemas e automações. Gosto de trabalhar com **JavaScript**, **TypeScript**, **React**, **Python**, e **PostgreSQL**, mas estou sempre explorando novas ferramentas e linguagens.
 
