@@ -9,12 +9,11 @@ Tenho experiência com desenvolvimento Web, APIs REST, integração de sistemas 
 </div>
 
 ---
-
 ### GitHub Stats
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=GabrielGGC18&show_icons=true&theme=onedark" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=GabrielGGC18&layout=compact&theme=onedark" />
+  <img src="https://github-readme-stats.vercel.app/api?username=GabrielGGC18&show_icons=true&theme=onedark" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=GabrielGGC18&layout=compact&theme=onedark" width="48%" />
 </div>
 
 ---
