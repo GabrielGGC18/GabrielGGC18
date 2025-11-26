@@ -35,17 +35,12 @@ Tenho experiência com desenvolvimento Web, APIs REST, integração de sistemas 
 ---
 
 ### Jorginho
+### Jorginho em ação
 
-![Snake animation](https://github.com/GabrielGGC18/GabrielGGC18/blob/output/github-contribution-grid-snake.svg)
+<img src="https://github.com/GabrielGGC18/GabrielGGC18/blob/output/github-contribution-grid-snake.svg" width="100%" />
+<br>
+<img src="https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif" width="300px" />
 
-
-![Loading bar](https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg)
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/GabrielGGC18/GabrielGGC18/blob/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/GabrielGGC18/GabrielGGC18/blob/output/github-contribution-grid-snake.svg" />
-  <img alt="github-snake" src="https://github.com/GabrielGGC18/GabrielGGC18/blob/output/github-contribution-grid-snake.svg" />
-</picture>
 
 ---
 
