@@ -2,24 +2,24 @@
 
 Olá, tudo bem? Me chamo **Gabriel**, sou um desenvolvedor **Fullstack** . Atualmente faço estágio **na prefeitura de Palmas-to**, e estou sempre em busca de aprender algo novo para evolução na carreira profisisonal.
 
-
 Tenho experiência com desenvolvimento Web, APIs REST, integração de sistemas e automações. Gosto de trabalhar com **JavaScript**, **TypeScript**, **React**, **Python**, e **PostgreSQL**, mas estou sempre explorando novas ferramentas e linguagens.
 
 <div align="center">
   <img src="https://visitor-badge.laobi.icu/badge?page_id=GabrielGGC18.GabrielGGC18" />
 </div>
 
+---
+
+### GitHub Stats
+
+<div align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=GabrielGGC18&show_icons=true&theme=onedark" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=GabrielGGC18&layout=compact&theme=onedark" />
+</div>
 
 ---
 
-###  GitHub Stats
-
-![Gabriel Stats](https://github-readme-stats.vercel.app/api?username=GabrielGGC18&show_icons=true&theme=onedark)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=GabrielGGC18&layout=compact&theme=onedark)
-
----
-
-###  Tecnologias que utilizo
+### Tecnologias que utilizo
 
 <div style="display: inline_block"><br>
   <img align="center" alt="G-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
@@ -33,16 +33,14 @@ Tenho experiência com desenvolvimento Web, APIs REST, integração de sistemas 
 </div>
 
 ---
+
 ### Jorginho
-![snake gif](https://github.com/GabrielGGC18/GabrielGGC18/blob/output/github-contribution-grid-snake.svg)
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/GabrielGGC18/GabrielGGC18/blob/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/GabrielGGC18/GabrielGGC18/blob/output/github-snake.svg" />
-  <img alt="github-snake" src="https://github.com/endersonmenezes/GabrielGGC18/blob/output/github-snake.svg" />
-</picture>
 
+![Snake animation](https://github.com/GabrielGGC18/GabrielGGC18/blob/output/github-contribution-grid-snake.svg)
 
-###  Bagdes �
+---
+
+### Bagdes
 
 ![Fullstack Developer](https://img.shields.io/badge/Fullstack-Developer-blue?style=for-the-badge)
 ![Open Source](https://img.shields.io/badge/Open%20Source-Contributor-brightgreen?style=for-the-badge)
@@ -70,5 +68,4 @@ Tenho experiência com desenvolvimento Web, APIs REST, integração de sistemas 
 
 ---
 
- Se quiser trocar uma ideia, colaborar em projetos ou apenas bater um papo sobre tecnologia, fique à vontade para entrar em contato comigo!
-
+Se quiser trocar uma ideia, colaborar em projetos ou apenas bater um papo sobre tecnologia, fique à vontade para entrar em contato comigo!
