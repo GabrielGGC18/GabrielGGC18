@@ -36,6 +36,8 @@ Tenho experiência com desenvolvimento Web, APIs REST, integração de sistemas 
 
 
 ### Jorginho em ação
+
+
 ![Snake animation](https://github.com/GabrielGGC18/GabrielGGC18/blob/output/github-contribution-grid-snake-dark.svg)
 
 
