@@ -33,7 +33,11 @@ Tenho experiência com desenvolvimento Web, APIs REST, integração de sistemas 
 </div>
 
 ---
-
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/GabrielGGC18/endersonmenezes/blob/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/GabrielGGC18/endersonmenezes/blob/output/github-snake.svg" />
+  <img alt="github-snake" src="https://github.com/endersonmenezes/GabrielGGC18/blob/output/github-snake.svg" />
+</picture>
 ### �
 
 ![Fullstack Developer](https://img.shields.io/badge/Fullstack-Developer-blue?style=for-the-badge)
