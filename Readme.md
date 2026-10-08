@@ -19,8 +19,6 @@ Gosto de transformar processo manual em sistema e de estudar o que ainda não se
 ```python
 class Gabriel:
     base     = "Palmas, Tocantins 🇧🇷"
-    formacao = ["Engenharia de Software — Católica do Tocantins",
-                "Sistemas de Informação — UNITINS"]
     cargo    = "Desenvolvedor Full Stack · Estagiário na Prefeitura de Palmas"
     foco     = "Arquitetura de software, integrações e automações"
     agora    = "Construindo o ATOM, meu agente pessoal de IA"
@@ -104,14 +102,12 @@ class Gabriel:
 <!-- Gerado diariamente por .github/workflows/profile-3d.yml -->
 <img src="profile-3d-contrib/profile-night-rainbow.svg" alt="Gráfico 3D de contribuições" width="100%">
 
-<!-- Gerado a cada 12h por .github/workflows/snake.yml -->
+<!-- Gerado a cada 5h por .github/workflows/snake.yml -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/GabrielGGC18/GabrielGGC18/output/snake-dark.svg">
-  <img src="https://raw.githubusercontent.com/GabrielGGC18/GabrielGGC18/output/snake.svg" alt="Cobrinha comendo o gráfico de contribuições" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/readme/snake-dark.svg">
+  <img src="assets/readme/snake.svg" alt="Cobrinha comendo o gráfico de contribuições" width="100%">
 </picture>
 
 <img src="https://visitor-badge.laobi.icu/badge?page_id=GabrielGGC18.GabrielGGC18" alt="Visitantes">
-
-<sub>Feito em Palmas, TO. Um commit de cada vez.</sub>
 
 </div>
