@@ -1,0 +1,28 @@
+name: Contribuições em 3D
+
+on:
+  schedule:
+    - cron: "0 9 * * *" # todo dia às 06h (Brasília)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: yoshi389111/github-profile-3d-contrib@v0.9.3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A profile-3d-contrib
+          git diff --cached --quiet || git commit -m "chore: atualiza gráfico 3D de contribuições"
+          git push

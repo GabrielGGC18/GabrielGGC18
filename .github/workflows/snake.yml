@@ -1,36 +1,25 @@
-# Nome da Actions:
-name: Snake Game
+name: Snake de contribuições
 
-# Controlador do tempo que será feita a atualização dos arquivos.
 on:
   schedule:
-    # Será atualizado a cada 5 horas.
-    - cron: "0 */5 * * *"
-
-  # Permite executar manualmente na aba Actions (para testes).
+    - cron: "0 */5 * * *" # a cada 5 horas
   workflow_dispatch:
 
-# Regras
+permissions:
+  contents: write
+
 jobs:
-  build:
+  snake:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write   # dá permissão de escrita ao GITHUB_TOKEN
-
     steps:
-      # Faz checkout do repositório
-      - uses: actions/checkout@v3
-
-      # Gera os arquivos da cobra
-      - uses: Platane/snk@master
+      - uses: Platane/snk@v3
         with:
-          github_user_name: GabrielGGC18
-          gif_out_path: dist/github-contribution-grid-snake.gif
-          svg_out_path: dist/github-contribution-grid-snake.svg
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake.svg
+            dist/snake-dark.svg?palette=github-dark&color_snake=#5eead4&color_dots=#161b22,#0e4a45,#14776d,#2bb3a0,#5eead4
 
-      # Publica os arquivos na branch "output"
-      - name: Deploy snake files
-        uses: crazy-max/ghaction-github-pages@v2.1.3
+      - uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist
