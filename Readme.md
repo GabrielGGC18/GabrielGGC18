@@ -7,8 +7,11 @@
 <a href="https://gabrielggc18.github.io/Gabriel-de--Sa-Mendes/"><img src="https://img.shields.io/badge/Portfólio-0a0e14?style=for-the-badge&logo=googlechrome&logoColor=5eead4" alt="Portfólio"></a>
 <a href="https://www.linkedin.com/in/gabriel-de-s%C3%A1-640314211/"><img src="https://img.shields.io/badge/LinkedIn-0a0e14?style=for-the-badge&logo=linkedin&logoColor=38bdf8" alt="LinkedIn"></a>
 <a href="https://www.instagram.com/gabrieldsa_dev/"><img src="https://img.shields.io/badge/Instagram-0a0e14?style=for-the-badge&logo=instagram&logoColor=a78bfa" alt="Instagram"></a>
+<a href="https://midia63.com.br"><img src="https://img.shields.io/badge/Mídia_63-0a0e14?style=for-the-badge&logo=googlechrome&logoColor=fbbf24" alt="Mídia 63"></a>
 
 </div>
+
+<img src="assets/divisor.svg" width="100%" alt="">
 
 ## Sobre mim
 
@@ -24,6 +27,75 @@ class Gabriel:
     agora    = "Construindo o ATOM, meu agente pessoal de IA"
     lema     = "Do conceito ao deploy."
 ```
+
+<img src="assets/divisor.svg" width="100%" alt="">
+
+## Em produção
+
+<a href="https://midia63.com.br"><img src="assets/midia63-3d.svg" width="100%" alt="Mídia 63, portal de notícias do Tocantins em produção: painel editorial e API REST em Django, site em React com SEO pré-renderizado, Fábrica de Cortes para Shorts e Reels e agentes de IA com aprovação humana."></a>
+
+<img src="assets/divisor.svg" width="100%" alt="">
+
+## Empreendimentos
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://midia-startup.midia63.com.br/">Mídia Startup</a></h3>
+      <p>Startup de tecnologia focada em SaaS, AgroTech, automação e marketing digital. Do campo ao digital.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Django-161b22?style=flat&logo=django&logoColor=5eead4" alt="Django">
+        <img src="https://img.shields.io/badge/React-161b22?style=flat&logo=react&logoColor=38bdf8" alt="React">
+      </p>
+      <a href="https://midia-startup.midia63.com.br/"><img src="https://img.shields.io/badge/Visitar_o_site-0a0e14?style=for-the-badge&logo=googlechrome&logoColor=5eead4" alt="Visitar o site da Mídia Startup"></a>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://midia-startup.midia63.com.br/catalogo">Agromídia</a></h3>
+      <p>O <b>Agromídia</b> tem catálogo próprio no site da Mídia Startup.</p>
+      <br>
+      <a href="https://midia-startup.midia63.com.br/catalogo"><img src="https://img.shields.io/badge/Ver_o_catálogo-0a0e14?style=for-the-badge&logo=googlechrome&logoColor=fbbf24" alt="Ver o catálogo do Agromídia"></a>
+    </td>
+  </tr>
+</table>
+
+<img src="assets/divisor.svg" width="100%" alt="">
+
+## Projetos
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/GabrielGGC18/Atom-">ATOM</a></h3>
+      <p>Agente pessoal de IA que orquestra sub-agentes e skills, com memória persistente e roteamento de tarefas.</p>
+      <img src="https://img.shields.io/badge/Python-161b22?style=flat&logo=python&logoColor=5eead4" alt="Python">
+      <img src="https://img.shields.io/badge/IA-161b22?style=flat&logo=openai&logoColor=5eead4" alt="IA">
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/GabrielGGC18/FastAPI">FastAPI</a></h3>
+      <p>APIs REST com rotas assíncronas, Pydantic, versionamento e boas práticas de arquitetura.</p>
+      <img src="https://img.shields.io/badge/Python-161b22?style=flat&logo=python&logoColor=5eead4" alt="Python">
+      <img src="https://img.shields.io/badge/FastAPI-161b22?style=flat&logo=fastapi&logoColor=5eead4" alt="FastAPI">
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://gabrielggc18.github.io/Force-up-Fit-new/">Force Up Fit</a></h3>
+      <p>Aplicação voltada para treinos e condicionamento físico.</p>
+      <img src="https://img.shields.io/badge/HTML-161b22?style=flat&logo=html5&logoColor=38bdf8" alt="HTML">
+      <img src="https://img.shields.io/badge/CSS-161b22?style=flat&logo=css&logoColor=38bdf8" alt="CSS">
+      <img src="https://img.shields.io/badge/JavaScript-161b22?style=flat&logo=javascript&logoColor=38bdf8" alt="JavaScript">
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/GabrielGGC18/Gabriel-de--Sa-Mendes">Portfólio</a></h3>
+      <p>Meu site autoral, vitrine dos meus projetos.</p>
+      <img src="https://img.shields.io/badge/HTML-161b22?style=flat&logo=html5&logoColor=38bdf8" alt="HTML">
+      <img src="https://img.shields.io/badge/CSS-161b22?style=flat&logo=css&logoColor=38bdf8" alt="CSS">
+      <img src="https://img.shields.io/badge/JavaScript-161b22?style=flat&logo=javascript&logoColor=38bdf8" alt="JavaScript">
+    </td>
+  </tr>
+</table>
+
+<img src="assets/divisor.svg" width="100%" alt="">
 
 ## Stack
 
@@ -73,18 +145,9 @@ class Gabriel:
 
 </div>
 
-## Projetos em destaque
+<img src="assets/divisor.svg" width="100%" alt="">
 
-| Projeto | Descrição | Stack |
-| --- | --- | --- |
-| [**GSM Startup**](https://gsm-startup.vercel.app/) | Startup de tecnologia focada em SaaS, AgroTech, automação e marketing digital. Do campo ao digital. | Django, React |
-| **Mídia 63** | Portal de notícias em produção: publicação editorial, área administrativa, integrações e deploy em VPS. | Django, PostgreSQL, Nginx |
-| [**ATOM**](https://github.com/GabrielGGC18/Atom-) | Agente pessoal de IA que orquestra sub-agentes e skills, com memória persistente e roteamento de tarefas. | Python, IA |
-| [**Force Up Fit**](https://gabrielggc18.github.io/Force-up-Fit-new/) | Aplicação voltada para treinos e condicionamento físico. | HTML, CSS, JavaScript |
-| [**FastAPI**](https://github.com/GabrielGGC18/FastAPI) | APIs REST com rotas assíncronas, Pydantic, versionamento e boas práticas de arquitetura. | Python, FastAPI |
-| [**Portfólio**](https://github.com/GabrielGGC18/Gabriel-de--Sa-Mendes) | Meu site autoral, vitrine dos meus projetos. | HTML, CSS, JavaScript |
-
-## Números
+## Métricas do GitHub
 
 <div align="center">
 
@@ -107,6 +170,16 @@ class Gabriel:
   <source media="(prefers-color-scheme: dark)" srcset="assets/readme/snake-dark.svg">
   <img src="assets/readme/snake.svg" alt="Cobrinha comendo o gráfico de contribuições" width="100%">
 </picture>
+
+</div>
+
+<img src="assets/divisor.svg" width="100%" alt="">
+
+<div align="center">
+
+<sub><b>Do conceito ao deploy.</b> · Palmas, Tocantins, Brasil</sub>
+
+<br><br>
 
 <img src="https://visitor-badge.laobi.icu/badge?page_id=GabrielGGC18.GabrielGGC18" alt="Visitantes">
 
