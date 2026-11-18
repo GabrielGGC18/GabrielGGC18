@@ -36,16 +36,6 @@ class Gabriel:
 
 <img src="assets/divisor.svg" width="100%" alt="">
 
-## Em destaque
-
-<a href="https://github.com/GabrielGGC18/MidiaComercial"><img src="assets/midia-comercial-3d.svg" width="100%" alt="MidiaComercial, inteligência comercial para lojistas de shopping: camada ao lado do PDV que entrega até 3 decisões por dia com evidência e um agente que encontra clientes quando um produto está em baixa. Django 5.2 + Ninja e React 19."></a>
-
-<br><br>
-
-<a href="https://github.com/GabrielGGC18/Atom-Agent"><img src="assets/atom-3d.svg" width="100%" alt="ATOM, agente pessoal de IA sobre o Claude Code: roteia pedidos para skills e subagentes por stack, memória compartilhada entre LLMs com ai-memory e hook de guarda."></a>
-
-<img src="assets/divisor.svg" width="100%" alt="">
-
 ## Empreendimentos
 
 <table>
@@ -75,19 +65,28 @@ class Gabriel:
 <table>
   <tr>
     <td width="50%" valign="top">
+      <a href="https://github.com/GabrielGGC18/MidiaComercial"><img src="assets/midia-comercial-logo-3d.svg" width="100%" alt="Logo 3D do MidiaComercial girando"></a>
+      <h3><a href="https://github.com/GabrielGGC18/MidiaComercial">MidiaComercial</a></h3>
+      <p>Inteligência comercial para lojistas de shopping: junta vendas, buscas sem estoque e público, entrega até 3 decisões com evidência e tem um agente que encontra clientes quando um produto está em baixa.</p>
+      <img src="https://img.shields.io/badge/Django-161b22?style=flat&logo=django&logoColor=5eead4" alt="Django">
+      <img src="https://img.shields.io/badge/React-161b22?style=flat&logo=react&logoColor=38bdf8" alt="React">
+      <img src="https://img.shields.io/badge/PostgreSQL-161b22?style=flat&logo=postgresql&logoColor=a78bfa" alt="PostgreSQL">
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/GabrielGGC18/Atom-"><img src="assets/atom-logo-3d.svg" width="100%" alt="Logo 3D do ATOM girando"></a>
       <h3><a href="https://github.com/GabrielGGC18/Atom-">ATOM</a></h3>
       <p>Agente pessoal de IA que orquestra sub-agentes e skills, com memória persistente e roteamento de tarefas.</p>
       <img src="https://img.shields.io/badge/Python-161b22?style=flat&logo=python&logoColor=5eead4" alt="Python">
       <img src="https://img.shields.io/badge/IA-161b22?style=flat&logo=openai&logoColor=5eead4" alt="IA">
     </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/GabrielGGC18/FastAPI">FastAPI</a></h3>
       <p>APIs REST com rotas assíncronas, Pydantic, versionamento e boas práticas de arquitetura.</p>
       <img src="https://img.shields.io/badge/Python-161b22?style=flat&logo=python&logoColor=5eead4" alt="Python">
       <img src="https://img.shields.io/badge/FastAPI-161b22?style=flat&logo=fastapi&logoColor=5eead4" alt="FastAPI">
     </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top">
       <h3><a href="https://gabrielggc18.github.io/Force-up-Fit-new/">Force Up Fit</a></h3>
       <p>Aplicação voltada para treinos e condicionamento físico.</p>
@@ -95,6 +94,8 @@ class Gabriel:
       <img src="https://img.shields.io/badge/CSS-161b22?style=flat&logo=css&logoColor=38bdf8" alt="CSS">
       <img src="https://img.shields.io/badge/JavaScript-161b22?style=flat&logo=javascript&logoColor=38bdf8" alt="JavaScript">
     </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/GabrielGGC18/Gabriel-de--Sa-Mendes">Portfólio</a></h3>
       <p>Meu site autoral, vitrine dos meus projetos.</p>
@@ -102,15 +103,12 @@ class Gabriel:
       <img src="https://img.shields.io/badge/CSS-161b22?style=flat&logo=css&logoColor=38bdf8" alt="CSS">
       <img src="https://img.shields.io/badge/JavaScript-161b22?style=flat&logo=javascript&logoColor=38bdf8" alt="JavaScript">
     </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/GabrielGGC18/e-commerce-loja-viola">E-commerce Loja Viola</a></h3>
       <p>API REST de uma loja de violas em Java com Quarkus: entidade, repositório, serviço e recurso REST (trabalho da Unitins).</p>
       <img src="https://img.shields.io/badge/Java-161b22?style=flat&logo=openjdk&logoColor=5eead4" alt="Java">
       <img src="https://img.shields.io/badge/Quarkus-161b22?style=flat&logo=quarkus&logoColor=5eead4" alt="Quarkus">
     </td>
-    <td width="50%" valign="top"></td>
   </tr>
 </table>
 

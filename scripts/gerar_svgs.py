@@ -136,9 +136,10 @@ CARDS = {
 }
 
 
-def card_3d(chave: str) -> str:
+def card_3d(chave: str, compacto: bool = False) -> str:
+    """compacto=True: só a moeda girando (430 × 300), para célula de tabela."""
     cfg = CARDS[chave]
-    W, H = 1000, 340
+    W, H = (430, 300) if compacto else (1000, 340)
     cx, cy = 215.0, 150.0  # centro da moeda
     defs = [
         f'<linearGradient id="c-bg" x1="0" y1="0" x2="1" y2="1">'
@@ -354,7 +355,8 @@ def card_3d(chave: str) -> str:
         f'<text x="{x0}" y="318" font-family="{MONO}" font-size="13" fill="{TEAL}">{cfg['link']}'
         f'<tspan fill="{CINZA}">  ·  {cfg['stack']}</tspan></text>'
     )
-    partes.append("".join(texto))
+    if not compacto:
+        partes.append("".join(texto))
 
     fundo = (
         f'<rect x="0.75" y="0.75" width="{W - 1.5}" height="{H - 1.5}" rx="16" fill="url(#c-bg)" '
@@ -403,6 +405,8 @@ def main() -> None:
         ASSETS / "midia63-3d.svg": card_3d("midia63"),
         ASSETS / "midia-comercial-3d.svg": card_3d("midia-comercial"),
         ASSETS / "atom-3d.svg": card_3d("atom"),
+        ASSETS / "midia-comercial-logo-3d.svg": card_3d("midia-comercial", compacto=True),
+        ASSETS / "atom-logo-3d.svg": card_3d("atom", compacto=True),
         ASSETS / "divisor.svg": divisor(),
     }
     for caminho, conteudo in pecas.items():
