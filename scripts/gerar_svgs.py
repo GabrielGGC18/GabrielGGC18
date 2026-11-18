@@ -14,6 +14,8 @@ Peças:
 - ``assets/midia63-3d.svg``: card do Mídia 63 com a logo girando como uma
   moeda 3D (com espessura), anéis em órbita que passam por trás e pela
   frente dela, piso em perspectiva e sombra pulsando;
+- ``assets/midia-comercial-3d.svg`` e ``assets/atom-3d.svg``: mesmo card,
+  com a marca do MidiaComercial e do ATOM;
 - ``assets/divisor.svg``: linha de separação entre seções.
 """
 
@@ -69,9 +71,9 @@ def suave(dur: float, valores: str, attr: str, extra: str = "") -> str:
     )
 
 
-def logo_inline(prefixo: str) -> tuple[str, float, float]:
+def logo_inline(prefixo: str, logo: Path = LOGO) -> tuple[str, float, float]:
     """Corpo da logo sem o <svg> externo, sem comentários e com ids prefixados."""
-    fonte = LOGO.read_text(encoding="utf-8")
+    fonte = logo.read_text(encoding="utf-8")
     fonte = re.sub(r"<!--.*?-->", "", fonte, flags=re.S)
     abertura = re.search(r"<svg\b[^>]*>", fonte)
     vb = re.search(r'viewBox="([\d.\s-]+)"', abertura.group(0)).group(1).split()
@@ -87,9 +89,55 @@ def logo_inline(prefixo: str) -> tuple[str, float, float]:
 
 
 # --------------------------------------------------------------------------- #
-# card do Mídia 63 — 1000 × 340
+# card 3D genérico — 1000 × 340 (Mídia 63, MidiaComercial, ATOM)
 # --------------------------------------------------------------------------- #
-def card_midia63() -> str:
+CARDS = {
+    "midia63": dict(
+        logo=LOGO, campo=M63_CAMPO, campo_claro="#2a3f86", sombra_titulo=M63_AZUL, destaque=AMBAR,
+        kicker="EM PRODUÇÃO · PORTAL DE NOTÍCIAS", nome="Mídia 63",
+        frase="Notícias do Tocantins, do rascunho ao feed.",
+        itens=[
+            "Painel editorial e API REST em Django 5.2 + DRF",
+            "Site em React 19 com SEO pré-renderizado na Vercel",
+            "Fábrica de Cortes: Shorts e Reels renderizados no FFmpeg",
+            "Agentes de IA na curadoria, sempre com aprovação humana",
+        ],
+        link="midia63.com.br", stack="Django · React · PostgreSQL · VPS + Vercel",
+        titulo="Mídia 63 — portal de notícias do Tocantins",
+    ),
+    "midia-comercial": dict(
+        logo=ASSETS / "marca" / "midia-comercial.svg", campo="#2A1677", campo_claro="#6D4AFF",
+        sombra_titulo="#6D4AFF", destaque="#B6FF3B",
+        kicker="HACKRUN · INTELIGÊNCIA COMERCIAL", nome="MidiaComercial",
+        frase="O que vendeu, o que faltou e quem comprar.",
+        itens=[
+            "Camada ao lado do PDV para lojistas de shopping",
+            "No máximo 3 decisões por dia, com evidência e limitação",
+            "Agente que acha clientes quando um produto está em baixa",
+            "Django 5.2 + Ninja na API, React 19 + Vite + Tailwind",
+        ],
+        link="GabrielGGC18/MidiaComercial", stack="Django · React · PostgreSQL",
+        titulo="MidiaComercial — inteligência comercial para lojistas",
+    ),
+    "atom": dict(
+        logo=ASSETS / "marca" / "atom.svg", campo="#0b2236", campo_claro="#1e5a80",
+        sombra_titulo="#36c5f0", destaque="#ff9a3c",
+        kicker="AGENTE PESSOAL DE IA · CLAUDE CODE", nome="ATOM",
+        frase="Um orquestrador, uma memória para todas as LLMs.",
+        itens=[
+            "Roteia cada pedido para a skill ou subagente da stack",
+            "Subagentes Django, React, PHP e Infra com skills nativas",
+            "Memória compartilhada entre Claude, Codex e OpenCode",
+            "Hook de guarda: commit, migrate e banco ficam com o humano",
+        ],
+        link="GabrielGGC18/Atom-Agent", stack="Claude Code · Bash · ai-memory",
+        titulo="ATOM — agente pessoal de IA",
+    ),
+}
+
+
+def card_3d(chave: str) -> str:
+    cfg = CARDS[chave]
     W, H = 1000, 340
     cx, cy = 215.0, 150.0  # centro da moeda
     defs = [
@@ -106,16 +154,16 @@ def card_midia63() -> str:
         f'<stop offset="1" stop-color="{VIOLETA}" stop-opacity="0"/></radialGradient>',
         f'<radialGradient id="c-sombra" cx="0.5" cy="0.5" r="0.5">'
         f'<stop offset="0" stop-color="#000" stop-opacity="0.85"/>'
-        f'<stop offset="0.55" stop-color="{M63_CAMPO}" stop-opacity="0.45"/>'
+        f'<stop offset="0.55" stop-color="{cfg['campo']}" stop-opacity="0.45"/>'
         f'<stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient>',
         f'<linearGradient id="c-borda-moeda" gradientUnits="userSpaceOnUse" '
         f'x1="0" y1="{cy - 60}" x2="0" y2="{cy + 60}">'
-        f'<stop offset="0" stop-color="#2a3f86"/><stop offset="0.5" stop-color="{M63_CAMPO}"/>'
+        f'<stop offset="0" stop-color="{cfg['campo_claro']}"/><stop offset="0.5" stop-color="{cfg['campo']}"/>'
         f'<stop offset="1" stop-color="#0b1330"/></linearGradient>',
         f'<filter id="c-glow" x="-60%" y="-60%" width="220%" height="220%">'
-        f'<feDropShadow dx="0" dy="0" stdDeviation="7" flood-color="{AMBAR}" flood-opacity="0.55"/></filter>',
+        f'<feDropShadow dx="0" dy="0" stdDeviation="7" flood-color="{cfg['destaque']}" flood-opacity="0.55"/></filter>',
         f'<filter id="c-ponto" x="-200%" y="-200%" width="500%" height="500%">'
-        f'<feDropShadow dx="0" dy="0" stdDeviation="2.4" flood-color="{AMBAR}" flood-opacity="1"/></filter>',
+        f'<feDropShadow dx="0" dy="0" stdDeviation="2.4" flood-color="{cfg['destaque']}" flood-opacity="1"/></filter>',
         f'<linearGradient id="c-fade" gradientUnits="userSpaceOnUse" x1="0" y1="232" x2="0" y2="{H}">'
         f'<stop offset="0" stop-color="#000"/><stop offset="0.35" stop-color="#fff"/></linearGradient>',
         '<linearGradient id="c-fade-x" gradientUnits="userSpaceOnUse" x1="20" y1="0" x2="410" y2="0">'
@@ -192,7 +240,7 @@ def card_midia63() -> str:
         )
 
     # --- moeda 3D ------------------------------------------------------------ #
-    corpo_logo, lw, lh = logo_inline("c-logo-")
+    corpo_logo, lw, lh = logo_inline("c-logo-", cfg["logo"])
     escala = 0.5
     raio = 118 * escala  # o disco da logo tem r = 118 no viewBox 240 × 256
     meia_espessura = 7.0
@@ -218,7 +266,7 @@ def card_midia63() -> str:
     def aneis(meio: str) -> str:
         """Metade de trás ('tras') ou da frente ('frente') dos dois anéis."""
         saida = []
-        for rx_, ry_, ang, cor, sentido, dash in ((110, 27, -16, AMBAR, -1, "5 8"), (94, 34, 22, VIOLETA, 1, "3 7")):
+        for rx_, ry_, ang, cor, sentido, dash in ((110, 27, -16, cfg["destaque"], -1, "5 8"), (94, 34, 22, VIOLETA, 1, "3 7")):
             if meio == "tras":
                 d = f"M{-rx_},0A{rx_},{ry_} 0 0 1 {rx_},0"
             else:
@@ -235,7 +283,7 @@ def card_midia63() -> str:
     def pontos() -> str:
         """Um ponto correndo em cada anel; some atrás da moeda."""
         saida = []
-        for rx_, ry_, ang, cor, sentido, dur in ((110, 27, -16, AMBAR, 1, 5.0), (94, 34, 22, TEAL, -1, 6.5)):
+        for rx_, ry_, ang, cor, sentido, dur in ((110, 27, -16, cfg["destaque"], 1, 5.0), (94, 34, 22, TEAL, -1, 6.5)):
             a = math.radians(ang)
             xs, ys, ops = [], [], []
             for k in range(41):
@@ -256,7 +304,7 @@ def card_midia63() -> str:
         return "".join(saida)
 
     moeda = (
-        f'<path d="{lista_borda[0]}" fill="url(#c-borda-moeda)" stroke="{AMBAR}" stroke-opacity="0.55" '
+        f'<path d="{lista_borda[0]}" fill="url(#c-borda-moeda)" stroke="{cfg['destaque']}" stroke-opacity="0.55" '
         f'stroke-width="1">'
         f'<animate attributeName="d" values="{";".join(lista_borda)}" dur="{n(dur_moeda)}s" repeatCount="indefinite"/>'
         f"</path>"
@@ -283,33 +331,28 @@ def card_midia63() -> str:
 
     # --- texto à direita ----------------------------------------------------- #
     x0 = 440
-    itens = [
-        "Painel editorial e API REST em Django 5.2 + DRF",
-        "Site em React 19 com SEO pré-renderizado na Vercel",
-        "Fábrica de Cortes: Shorts e Reels renderizados no FFmpeg",
-        "Agentes de IA na curadoria, sempre com aprovação humana",
-    ]
+    itens = cfg["itens"]
     texto = [
         f'<text x="{x0}" y="62" font-family="{MONO}" font-size="12" letter-spacing="4" fill="{CINZA}">'
-        f"EM PRODUÇÃO · PORTAL DE NOTÍCIAS</text>",
+        f"{cfg['kicker']}</text>",
         f'<text x="{x0 + 3}" y="123" font-family="{SANS}" font-weight="800" font-size="56" '
-        f'fill="{M63_AZUL}" fill-opacity="0.35">Mídia 63</text>',
+        f'fill="{cfg['sombra_titulo']}" fill-opacity="0.35">{cfg['nome']}</text>',
         f'<text x="{x0}" y="120" font-family="{SANS}" font-weight="800" font-size="56" '
-        f'fill="url(#c-titulo)">Mídia 63</text>',
+        f'fill="url(#c-titulo)">{cfg['nome']}</text>',
         f'<text x="{x0}" y="152" font-family="{SERIF}" font-style="italic" font-size="18" fill="{TEXTO}">'
-        f"Notícias do Tocantins, do rascunho ao feed.</text>",
+        f"{cfg['frase']}</text>",
     ]
     for k, item in enumerate(itens):
         y = 192 + k * 28
         texto.append(
-            f'<rect x="{x0 + 1}" y="{y - 9}" width="7" height="7" fill="{AMBAR}" '
+            f'<rect x="{x0 + 1}" y="{y - 9}" width="7" height="7" fill="{cfg['destaque']}" '
             f'transform="rotate(45 {x0 + 4.5} {y - 5.5})"/>'
             f'<text x="{x0 + 20}" y="{y}" font-family="{SANS}" font-size="15" fill="{TEXTO}" fill-opacity="0.88">'
             f"{item}</text>"
         )
     texto.append(
-        f'<text x="{x0}" y="318" font-family="{MONO}" font-size="13" fill="{TEAL}">midia63.com.br'
-        f'<tspan fill="{CINZA}">  ·  Django · React · PostgreSQL · VPS + Vercel</tspan></text>'
+        f'<text x="{x0}" y="318" font-family="{MONO}" font-size="13" fill="{TEAL}">{cfg['link']}'
+        f'<tspan fill="{CINZA}">  ·  {cfg['stack']}</tspan></text>'
     )
     partes.append("".join(texto))
 
@@ -320,8 +363,8 @@ def card_midia63() -> str:
     return svg(
         W,
         H,
-        "Mídia 63 — portal de notícias do Tocantins",
-        "Card do projeto Mídia 63 com a logo girando como uma moeda 3D, anéis em órbita e a lista do que o "
+        cfg["titulo"],
+        f"Card do projeto {cfg['nome']} com a logo girando como uma moeda 3D, anéis em órbita e a lista do que o "
         "sistema faz.",
         f"<defs>{''.join(defs)}</defs>{fundo}{''.join(partes)}",
     )
@@ -357,7 +400,9 @@ def divisor() -> str:
 
 def main() -> None:
     pecas = {
-        ASSETS / "midia63-3d.svg": card_midia63(),
+        ASSETS / "midia63-3d.svg": card_3d("midia63"),
+        ASSETS / "midia-comercial-3d.svg": card_3d("midia-comercial"),
+        ASSETS / "atom-3d.svg": card_3d("atom"),
         ASSETS / "divisor.svg": divisor(),
     }
     for caminho, conteudo in pecas.items():

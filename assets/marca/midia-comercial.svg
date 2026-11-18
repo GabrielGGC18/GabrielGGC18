@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 256" role="img" aria-label="MidiaComercial">
+  <!-- Monograma MC do MidiaComercial (frontend/public/favicon.svg) sobre disco roxo, no formato de moeda do card 3D. -->
+  <defs>
+    <linearGradient id="disco" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7C5CFF"/><stop offset="1" stop-color="#2A1677"/></linearGradient>
+  </defs>
+  <circle cx="120" cy="128" r="118" fill="url(#disco)"/>
+  <circle cx="120" cy="128" r="108" fill="none" stroke="#B6FF3B" stroke-opacity="0.55" stroke-width="3"/>
+  <g transform="translate(120 128) scale(2.7) translate(-32 -32)">
+    <g transform="translate(4.64 3.2) scale(.72)"><path fill="#fff" d="M6 60V20L24 38 42 20V60H31V45L24 52 17 45V60Z"/><path fill="#fff" d="M70 20H54L44 30V50L54 60H70V49H59L55 45V35L59 31H70Z"/><path fill="#B6FF3B" d="M54 20H70V31H59L54 36Z"/></g>
+  </g>
+</svg>

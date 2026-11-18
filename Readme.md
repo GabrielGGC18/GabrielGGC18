@@ -24,7 +24,7 @@ class Gabriel:
     base     = "Palmas, Tocantins 🇧🇷"
     cargo    = "Desenvolvedor Full Stack · Estagiário na Prefeitura de Palmas"
     foco     = "Arquitetura de software, integrações e automações"
-    agora    = "Construindo o ATOM, meu agente pessoal de IA"
+    agora    = "ATOM (agente de IA) e MidiaComercial (inteligência comercial)"
     lema     = "Do conceito ao deploy."
 ```
 
@@ -33,6 +33,16 @@ class Gabriel:
 ## Em produção
 
 <a href="https://midia63.com.br"><img src="assets/midia63-3d.svg" width="100%" alt="Mídia 63, portal de notícias do Tocantins em produção: painel editorial e API REST em Django, site em React com SEO pré-renderizado, Fábrica de Cortes para Shorts e Reels e agentes de IA com aprovação humana."></a>
+
+<img src="assets/divisor.svg" width="100%" alt="">
+
+## Em destaque
+
+<a href="https://github.com/GabrielGGC18/MidiaComercial"><img src="assets/midia-comercial-3d.svg" width="100%" alt="MidiaComercial, inteligência comercial para lojistas de shopping: camada ao lado do PDV que entrega até 3 decisões por dia com evidência e um agente que encontra clientes quando um produto está em baixa. Django 5.2 + Ninja e React 19."></a>
+
+<br><br>
+
+<a href="https://github.com/GabrielGGC18/Atom-Agent"><img src="assets/atom-3d.svg" width="100%" alt="ATOM, agente pessoal de IA sobre o Claude Code: roteia pedidos para skills e subagentes por stack, memória compartilhada entre LLMs com ai-memory e hook de guarda."></a>
 
 <img src="assets/divisor.svg" width="100%" alt="">
 
@@ -92,6 +102,15 @@ class Gabriel:
       <img src="https://img.shields.io/badge/CSS-161b22?style=flat&logo=css&logoColor=38bdf8" alt="CSS">
       <img src="https://img.shields.io/badge/JavaScript-161b22?style=flat&logo=javascript&logoColor=38bdf8" alt="JavaScript">
     </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/GabrielGGC18/e-commerce-loja-viola">E-commerce Loja Viola</a></h3>
+      <p>API REST de uma loja de violas em Java com Quarkus: entidade, repositório, serviço e recurso REST (trabalho da Unitins).</p>
+      <img src="https://img.shields.io/badge/Java-161b22?style=flat&logo=openjdk&logoColor=5eead4" alt="Java">
+      <img src="https://img.shields.io/badge/Quarkus-161b22?style=flat&logo=quarkus&logoColor=5eead4" alt="Quarkus">
+    </td>
+    <td width="50%" valign="top"></td>
   </tr>
 </table>
 
